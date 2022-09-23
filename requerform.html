@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação de Tonner Fribal</title>
+
+    <link rel ="stylesheet" href="style.css"> <!-- Aqui integramos o nosso CSS -->
+</head>
+<body>
+
+    
+    <!-- Abaixo fizemos um link sheetmonkey e usamos o excel como base de dados para salvar os form -->
+<form action ="https://api.sheetmonkey.io/form/9tPARAHUiEuFgvzMQJnvaF" method="post"      
+    <div class="campo">
+
+        <h1 id="titulo">Solicitação de Tonner Fribal</h1>
+        <p id="subtitulo">Complete a requisição</p>
+        <br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong> </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+
+            <div class="campo">
+                <label for="setor"><strong>Setor</strong></label>
+                <input type="text" name="setor" id="setor" required>
+
+                <div class="data">
+                    <label for="data"><strong>Data</strong></label> 
+                    <input type="date" name="Data" id="date" required>
+                    
+
+                </label>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+
+            <label for="marca"><strong>Marca da Impressora</strong></label>
+            <input type="text" name="marca da Impressora" id="marca" required>
+
+        </div>
+
+       <div class="cmapo"> 
+
+        <label><strong>Selecione o tipo de recarga:</strong> </label>
+        <label>
+            <input type="radio" name="Tipo de Recarga" value="Tinta-Pigmentada">Tinta-Pigmentada
+        </label>
+        <label>
+            <input type="radio" name="Tipo de Recarga" value="epson">Tinta-Colorida
+        </label>
+        <label>
+            <input type="radio" name="Tipo de Recarga" value="tonner">Tonner
+        </label>
+
+       </div>
+
+    <div class="campo">
+        <label for="prioridade">prioridade</label>
+        <select id="prioridade">
+            <option select disabled value="">Selecione</option>
+            <option>Baixa</option>
+            <option>Média</option>
+            <option>Alta</option> 
+        </select>
+
+
+    </div>       
+
+    <fieldset class="grupo">
+        <div class="campo">
+            <label><strong>Selecione o modelo do Tonnner ou tinta:</strong> </label><br><br>
+            <input type="checkbox" id="tonner1" name="Modelo" value="Tonner 85">
+            <label for="tonner85">Tonner 85</label>
+            <input type="checkbox" id="tonner2" name="Modelo" value="Tonner 83">
+            <label for="tonner83">Tonner 83</label>
+            <input type="checkbox" id="tonner3" name="Modelo" value="Tonner Brother">
+            <label for="tonnerBrtoher">Tonner Brother</label>
+            <input type="checkbox" id="tinta1" name="Modelo" value="Pigmentada">
+            <label for="pigmentada">Tinta Preta Epson</label>
+            <input type="checkbox" id="tinta2" name="Modelo" value="Colorida">
+            <label for="colorida">Tinta Colorida Epson</label>
+        </div>
+        <div class="campo">
+           
+            <button onclick="window.print()">Imprimir</button>     <!-- Comando para imprimir formulário  ou a página web -->
+        </div>
+    </fieldset>
+    <button class="botao" type="submit">Enviar Solicitação</button>   <!-- -->
+
+    </form>
+
+   
+    <!-- <button class="button" value="Print this page" onClick="window.print()">Imprimir </button>   -->
+   
+<!--<button onclick="window.print()">Imprimir</button>-->
+    
+</body>
+</html>
