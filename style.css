@@ -7,7 +7,9 @@
 * {
   box-sizing: border-box;
 }
-
+/*.cabecalho {width: 60%; float: right; padding: 3% 4%;}*/
+.logo {width: 96px; height:96px; float: left; background: url(../Pesagem_Balan/fribal_logo.png)center center/96px no-repeat; 
+font-size: 0;}
 body {
   background-color: #f7f7f7;
   display: flex;
@@ -30,7 +32,7 @@ body {
 h1 {
   letter-spacing: 1px;
   margin: 0;
-  color: #2e75cc;
+  color: #df1a1a;
 }
 
 h3 {
